@@ -63,7 +63,7 @@ const onMovieSubmit = (eve) => {
         url: urlControl.value
     }
     movieArray.unshift(movieObj)
-    templating(movieArray)                   // new card will be create or to show new card on UI
+    templating(movieArray)           // new card will be create or to show new card on UI
     eve.target.reset();
     cl(movieArray)
     onModalHandler()
