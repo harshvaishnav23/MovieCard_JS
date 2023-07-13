@@ -3,12 +3,12 @@ let cl = console.log;
 const showModal = document.getElementById('showModal')
 const backDrop = document.getElementById('backDrop')
 const ourModal = document.getElementById('ourModal')
-const modalClose = document.querySelectorAll('.modalClose')
 const movieForm = document.getElementById('movieForm')
 const titleControl = document.getElementById('title')
 const ratingControl = document.getElementById('rating')
 const urlControl = document.getElementById('url')
 const movieContainer = document.getElementById('movieContainer')
+const modalClose = [...document.querySelectorAll('.modalClose')]
 
 
 const movieArray = [
